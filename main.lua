@@ -61,9 +61,12 @@ myQuad:setStrokeColor(255/2555, 60/255, 40/255)
 textTri = display.newText("Triangle", 500, 500, nil, 50 )
 textTri.x = 150
 textTri.y = 275
-textHex = display.newText("Hexagon",500,500, nil, 50)
+textHex = display.newText("Hexagon", 500, 500, nil, 50)
 textHex.x = 500
 textHex.y = 325
-
+textQuad = display.newText("Quadrilateral", 500, 500, nil ,50)
+textQuad.x = 750
+textQuad.y = 280
 -- Sets colour of the text
 textTri:setFillColor(0/255, 0/255, 0/255)
+textQuad:setFillColor(0/255, 188/255, 255/255)
