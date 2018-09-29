@@ -64,6 +64,7 @@ textHex.y = 325
 textQuad = display.newText("Quadrilateral", 500, 500, nil ,50)
 textQuad.x = 750
 textQuad.y = 280
+
 -- Sets colour of the text
 textTri:setFillColor(0/255, 0/255, 0/255)
 textQuad:setFillColor(0/255, 188/255, 255/255)
