@@ -14,9 +14,6 @@ local myQuad
 local verticesTri =  { 800,350, 500,200, 500,300, }
 local verticesHex = { 0,-110, 27,-45, 105,-55, 143,56, 65,150, 0,105,}
 local verticesQuad = { 0,-110, 57,-35, 155,-55, 43,16, }
-local areaTextTri
-local areaTextHex
-local areaTextQuad
 local halfWTri = display.contentWidth * 1
 local halfWHex = display.contentWidth * 1
 local halfWQuad = display.contentWidth * 1
