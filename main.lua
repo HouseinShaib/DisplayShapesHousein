@@ -5,16 +5,11 @@
 -- This program displays 3 different shapes and their names to the tablet screen
 -----------------------------------------------------------------------------------------
 
-<<<<<<< HEAD
--- Hides the status bar
-=======
 -- Removes the status bar
->>>>>>> 98398ba5fcc4059e25d7d12f2212eb4741d7cb0e
 display.setStatusBar(display.HiddenStatusBar)
 
 -- Create variables
 local myTri
-<<<<<<< HEAD
 local myQuad
 local myHex
 local verticesTri =  { 800,350, 500,200, 500,300, }
@@ -29,7 +24,6 @@ local halfWHex = display.contentWidth * 1
 local halfHTri = display.contentHeight * 1
 local halfHQuad = display.contentHeight * 1
 local halfHHex = display.contentHeight * 1
-=======
 local myHex
 local myQuad
 local verticesTri =  { 800,350, 500,200, 500,300, }
@@ -45,7 +39,6 @@ local textSize = 50
 local textTri
 local textHex
 local textQuad
->>>>>>> 98398ba5fcc4059e25d7d12f2212eb4741d7cb0e
 
 -- Set background colour of my screen
 display.setDefault("background", 200/255, 60/255, 201/255)
@@ -54,13 +47,12 @@ display.setDefault("background", 200/255, 60/255, 201/255)
 myTri = display.newPolygon( halfWTri, halfHTri, verticesTri)
 myTri.x = 200
 myTri.y = 150
-<<<<<<< HEAD
 myQuad = display.newPolygon( halfWQuad, halfHQuad, verticesQuad)
-myQuad.x = 500
+myQuad.x = 720
 myQuad.y = 150
 myHex = display.newPolygon( halfWHex, halfHHex, verticesHex)
-myHex.x = 225
-myHex.y = 500
+myHex.x = 500
+myHex.y = 175
 
 -- Sets the width of border
 myTri.strokeWidth = 40
@@ -76,13 +68,6 @@ myHex.fill = { type="image", filename="Peacock.jfif" }
 myTri:setStrokeColor(70/255, 150/255, 200/255)
 myQuad:setStrokeColor(255/255, 0/255, 100/255)
 myHex:setStrokeColor(0, 0, 1)
-=======
-myHex = display.newPolygon( halfWHex, halfHHex, verticesHex)
-myHex.x = 500
-myHex.y = 150
-myQuad = display.newPolygon( halfWQuad, halfHQuad, verticesQuad)
-myQuad.x = 735
-myQuad.y = 160
 
 -- Sets the width of border
 myTri.strokeWidth = 40
@@ -113,4 +98,3 @@ textQuad.y = 280
 -- Sets colour of the text
 textTri:setFillColor(0/255, 0/255, 0/255)
 textQuad:setFillColor(0/255, 188/255, 255/255)
->>>>>>> 98398ba5fcc4059e25d7d12f2212eb4741d7cb0e
